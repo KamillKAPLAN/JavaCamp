@@ -1,0 +1,36 @@
+ ## JAVA & REACT YouTube Eğitim Videosu ##
+ + 21.04.2021
+   - jave se (jdk) kurulumu (1)
+   - eclipse kurulumu (2)
+   - java sektörde en çok kullanılan programlama dillerinden biri.
+   - replit.com --> online Ide
+   - bankacılık, e-ticaret, yemek, market, stok takip, rent a car : otomasyon uygulamaları
+   - metinsel veri tipleri arka planda `char` array olarak tutulur.
+   - micro service odaklı proje geliştirme
+   - iyi bir programcı olmanın en önemli şartı bir hata ile 3-4 gün uğraşmaktır. Bu ciddi bir `özveri` istemektedir.
+   - Derste öğrendiklerimiz :
+     - değişkenler, şart blokları, diziler, döngüler, for ve foreach kullanımı, değer ve referans tipleri	 
+   - Ödev 
+     - https://www.youtube.com/watch?v=dtP6yK50xIs&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=6
+     - https://www.youtube.com/watch?v=MaJXZn3CqVA&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=24
+	
+ + 24.04.2021
+   - her yayının sonunda bilgi yarışması olacak.
+   - javanın kendisi C# gibi tamamen OOP 'dir.
+   - main metodu java uygulamalarındaki başlangıç dosyasıdır. Biz aksini belirtmediğimiz sürece, program oradan dallanıyor.
+   - veritabanı olarak postgre kullanılacak. Memory veritabanı üzerinden ilerlenecek.
+   - sys = System.out.println();
+   - Her JAVA dosyası bir **class** dır.
+   - constructor : `yapıcı` block. Bir class'ı oluştururken yapmasını istediğimiz şeyi buraya yazarız.
+   - overloading : birden fazla oluşturma - aşırı yüklenme
+   - **Important** : bir constructor çalışmak zorunda, birden fazla constructor varsa sadece biri çalışır.
+   - `Don't repeat yourself` : kendini tekrar etme
+   - **IMPORTANT**`İş yapan Class'lar`, `Özellik tutan Class'lar` **IMPORTANT**
+   - SOLID - Single Responsibility : her class, her metot sadece bir işi yapmakla mükelleftir.
+   - Eclipse -> Run         : Ctrl F11 
+				Format Code : Ctrl + Shift + F
+   - Derste öğrendiklerimiz :
+     - Class oluşturma, `Özellik` ve `İş yapan` classlar incelenmiştir. `Constructor` overloading üzerinde çalışılmıştır.
+   - Ödev 
+     - (başlangıç) : https://www.youtube.com/watch?v=XsIJn8pjdOM&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=25
+	 - (bitiş) : https://www.youtube.com/watch?v=X1UnM4W4-_w&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=36

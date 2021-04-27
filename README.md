@@ -11,9 +11,7 @@
  - Değer ve Referans Tipleri
 
 ☑️ `Ders1 - Ödev`
- - (1) https://www.youtube.com/watch?v=dtP6yK50xIs&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=6
- - (2) https://www.youtube.com/watch?v=MaJXZn3CqVA&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=24
- - yukarıda (1) - (2) aralığında verilen videolar izlendi ve uygulandı.
+ - [5. Ders](https://www.youtube.com/watch?v=dtP6yK50xIs&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=6) ve [23. Ders](https://www.youtube.com/watch?v=MaJXZn3CqVA&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=24) aralığında verilen videolar izlendi ve uygulandı.
  - `NOTLAR`
    - `intellisense` : programcıya kodu yazarken yardımcılık sağlar. 
    - `case sensitive` : büyük küçük harf duyarlı
@@ -42,4 +40,16 @@
    - `diziler` : genellikle aynı tipdeki verilerin bir arada bulunduğu liste 
    - **`bug`** : uygulamadaki mantıksal veya sistemsel hatalar.
 
-☑️ [Ders2 - 24.04.2021 - OOPIntro](https://www.youtube.com/watch?v=zwPQsIpTrH8)
+☑️ [Ders2 - 24.04.2021 - OOPIntro](https://www.youtube.com/watch?v=zwPQsIpTrH8) dersinde `Java` ile aşağıdaki konular işlenmiştir.
+ - Class oluşturma, `Özellik` ve `İş yapan` classlar incelenmiştir.
+ - Constructor ifadesi incelenmiştir. `Constructor` overloading üzerinde çalışılmıştır.
+ - javanın kendisi C# gibi tamamen OOP 'dir.
+ - Her JAVA dosyası bir **class** dır.
+ - `constructor` : `yapıcı` block. Bir class'ı oluştururken yapmasını istediğimiz şeyi buraya yazarız.
+ - `overloading` : birden fazla oluşturma - aşırı yüklenme
+ - **Important** : bir constructor çalışmak zorunda, birden fazla constructor varsa sadece biri çalışır.
+ - **`Don't repeat yourself`** : kendini tekrar etme
+ - **IMPORTANT** `İş yapan Class'lar`, `Özellik tutan Class'lar` **IMPORTANT**
+ - `SOLID - Single Responsibility` : her class, her metot sadece bir işi yapmakla mükelleftir.
+ - **`sys`** = System.out.println();
+ - Eclipse --> **Run** : `Ctrl F11` ve **Format Code** : `Ctrl + Shift + F`
