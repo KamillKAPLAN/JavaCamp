@@ -52,8 +52,15 @@ public class Main {
 
 	    System.out.println("\n--------------\n");
 
-	    String[] krediler = { "Hýzlý Kredi", "Mutlu Emekli Kredisi", "Konut Kredi", "Çiftçi Kredisi", "Mbs Kredisi",
-	        "Med Kredisi", "Kültür Bakanlýðý Kredisi" };
+	    String[] krediler = { 
+	    		"Hýzlý Kredi", 
+	    		"Mutlu Emekli Kredisi", 
+	    		"Konut Kredi", 
+	    		"Çiftçi Kredisi", 
+	    		"Mbs Kredisi",
+	    		"Med Kredisi", 
+	    		"Kültür Bakanlýðý Kredisi" 
+	    };
 
 	    /* For Döngüsü */
 	    for (int i = 0; i < krediler.length; i++)
@@ -87,6 +94,8 @@ public class Main {
 	     * 
 	     */
 
+	    System.out.println("\n--------------\n");
+	    
 	    int sayi1 = 10;
 	    int sayi2 = 20;
 	    sayi1 = sayi2;
