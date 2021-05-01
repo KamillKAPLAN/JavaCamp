@@ -1,6 +1,6 @@
 # JAVA CAMP
 
-☑️ Bu Repository 'de `YouTube` 'da yer alan [(Java & React ) Yazılım Geliştirici Yetiştirme Kampı](https://www.youtube.com/watch?v=HB0T0hAMk0k) oynatma listesindeki videolar yer almaktadır.
+☑️ Bu Repository 'de `YouTube` 'da yer alan [(Java & React ) Yazılım Geliştirici Yetiştirme Kampı](https://www.youtube.com/playlist?list=PLqG356ExoxZUuVYKLuiQLnref7Y4ims87) oynatma listesindeki videolar yer almaktadır.
 
 ☑️ [Ders1 - 21.04.2021 - Intro](https://www.youtube.com/watch?v=HB0T0hAMk0k) dersinde `Java` ile aşağıdaki konular işlenmiştir.
  - Değişkenler
@@ -62,9 +62,9 @@
    - metot yazarak kendimizi tekrarlamayı engellemiş oluyoruz.
    - **`metot isimleri`** : **camelCasing** 
    - **`class isimleri`** : `pascalCasing`
-   - YAZIM ŞEKİLLERİ
+   - -- YAZIM ŞEKİLLERİ --
    - **Camel Case** : userLoginCount
-   - **Pascal Case ** : UserLoginCount 
+   - **Pascal Case** : UserLoginCount 
    - **Snake Case** : user_login_count || USER_LOGIN_COUNT 
    - **Kebab Case** : user-login-count
    - class'ları, nesnel alt yapıları öğrenirsek `sürdürülebilir` yazılım  gerçekleştirmeyi öğrenmiş oluruz.
@@ -90,3 +90,23 @@
    - **setter** : kurmak, vermek, bir değeri vermek                   : **writeonly**
    - Class'ların default bir Constructor'ı mevcuttur. 
    - **this** : bu class, içerisinde bulunduğum class anlamına gelmektedir.
+   
+☑️ [Ders3 - 28.04.2021 - OopIntro](https://www.youtube.com/watch?v=v0nc0yesGfk) dersinde `Java` ile aşağıdaki konular işlenmiştir.   
+ - **Constructor** : bir nesnenin referansını bellekte oluşturduğumuz zaman çalışan blocktur.
+ - **final** : sadece constructor'dan erişim sağlayabilmek için field'ların önüne konulur.
+ - **getter'lar ve setter'lar** field alanlarının değerlerini vermeye ve o değerleri almak için kullanılacak operayonlar.
+ - **Inheritance(Miras Almak)** : bizim iki adet sınıfımız var, bu iki tane sınıfımızda bazı operasyonlar ortak bir yapıya sahip onun için ya biz gider iki kere onu ayrı ayrı sınıflara yazarız yada bu `Inheritance` mimarisinden faydalanırız.
+ - Üzerinde 4 işlem yapmadığımız veriler `metinsel` olarak oluşturulmalıdır. Bu bizim VTYS tarafında doğru arama yapmamızı sağlar. 
+ - **Bir class ne yapabiliyorsa sadece onları yapabilmelidir.**
+ - **extends** : genişletmek - 
+ - **class'lar referans tipdir. ve temel sınıflar, super sınıflar onu `extends` eden sınıfların referansını tutabilir. Bu bize `sürdürülebilirliği` sağlar.**
+ - **Polymorphism** : class'lar referans tipdir. ve temel sınıflar, super sınıflar onu `extends` eden sınıfların referansını tutabilir.
+ - SOLID - **Open Closed Principle** : sisteme yeni özellik eklendiğinde mevcutta bulunan hiç bir kodu değiştiremezsin, sadece yeni kodu eklersin.
+ - **bir birinin alternatifi olan kodlar için **`if`** ile yazılmaz.**
+ - **iş yapan bir sınıf başka bir iş yapan sınıf'ı kullanacak ise asla ve asla somut sınıf üzerinden ilerlenmez ve asla new lenmemelidir.**
+ - **İş yapan sınıflar** = somut sınıf
+
+☑️ `Ders2 - Ödev`
+ - [27. Ders](https://www.youtube.com/watch?v=zfIt6x-guc0&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=29) ve [39. Ders](https://www.youtube.com/watch?v=P4j2oh84ht4&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=40) aralığında verilen videolar izlendi ve uygulandı.
+ - `NOTLAR`
+   - 

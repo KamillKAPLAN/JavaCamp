@@ -1,5 +1,5 @@
  ## JAVA & REACT YouTube Eğitim Videosu ##
- + 21.04.2021
+ + 21.04.2021 - 01
    - jave se (jdk) kurulumu (1)
    - eclipse kurulumu (2)
    - java sektörde en çok kullanılan programlama dillerinden biri.
@@ -14,7 +14,7 @@
      - https://www.youtube.com/watch?v=dtP6yK50xIs&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=6
      - https://www.youtube.com/watch?v=MaJXZn3CqVA&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=24
 	
- + 24.04.2021
+ + 24.04.2021 - 02
    - her yayının sonunda bilgi yarışması olacak.
    - javanın kendisi C# gibi tamamen OOP 'dir.
    - main metodu java uygulamalarındaki başlangıç dosyasıdır. Biz aksini belirtmediğimiz sürece, program oradan dallanıyor.
@@ -34,4 +34,6 @@
    - Ödev 
      - https://www.youtube.com/watch?v=XsIJn8pjdOM&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=25
 	 - https://www.youtube.com/watch?v=X1UnM4W4-_w&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=36
- + 
+ 
+ + 28.04.2021 - 03
+   - 
