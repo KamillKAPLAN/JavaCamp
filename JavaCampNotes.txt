@@ -32,5 +32,6 @@
    - Derste öğrendiklerimiz :
      - Class oluşturma, `Özellik` ve `İş yapan` classlar incelenmiştir. `Constructor` overloading üzerinde çalışılmıştır.
    - Ödev 
-     - (başlangıç) : https://www.youtube.com/watch?v=XsIJn8pjdOM&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=25
-	 - (bitiş) : https://www.youtube.com/watch?v=X1UnM4W4-_w&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=36
+     - https://www.youtube.com/watch?v=XsIJn8pjdOM&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=25
+	 - https://www.youtube.com/watch?v=X1UnM4W4-_w&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=36
+ + 

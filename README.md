@@ -40,12 +40,12 @@
    - `diziler` : genellikle aynı tipdeki verilerin bir arada bulunduğu liste 
    - **`bug`** : uygulamadaki mantıksal veya sistemsel hatalar.
 
-☑️ [Ders2 - 24.04.2021 - OOPIntro](https://www.youtube.com/watch?v=zwPQsIpTrH8) dersinde `Java` ile aşağıdaki konular işlenmiştir.
+☑️ [Ders2 - 24.04.2021 - OopIntro](https://www.youtube.com/watch?v=zwPQsIpTrH8) dersinde `Java` ile aşağıdaki konular işlenmiştir.
  - Class oluşturma, `Özellik` ve `İş yapan` classlar incelenmiştir.
  - Constructor ifadesi incelenmiştir. `Constructor` overloading üzerinde çalışılmıştır.
- - javanın kendisi C# gibi tamamen OOP 'dir.
+ - Javanın kendisi C# gibi tamamen OOP 'dir.
  - Her JAVA dosyası bir **class** dır.
- - `constructor` : `yapıcı` block. Bir class'ı oluştururken yapmasını istediğimiz şeyi buraya yazarız.
+ - **`constructor`** : `yapıcı block`. Bir class'ı oluştururken yapmasını istediğimiz şeyi buraya yazarız.
  - `overloading` : birden fazla oluşturma - aşırı yüklenme
  - **Important** : bir constructor çalışmak zorunda, birden fazla constructor varsa sadece biri çalışır.
  - **`Don't repeat yourself`** : kendini tekrar etme
@@ -53,3 +53,40 @@
  - `SOLID - Single Responsibility` : her class, her metot sadece bir işi yapmakla mükelleftir.
  - **`sys`** = System.out.println();
  - Eclipse --> **Run** : `Ctrl F11` ve **Format Code** : `Ctrl + Shift + F`
+
+☑️ `Ders2 - Ödev`
+ - [24. Ders](https://www.youtube.com/watch?v=XsIJn8pjdOM&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=25) ve [35. Ders](https://www.youtube.com/watch?v=X1UnM4W4-_w&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=36) aralığında verilen videolar izlendi ve uygulandı.
+ - `NOTLAR`
+   - **Don't Repeat Yourself (DRY) Prensibi** : kendini tekrar etme prensibi
+   - **fonksiyonel programlama** : bir fonksiyonun metodun içerisinde bir sürü işi yapmak o anki operasyonu kurtarır. Aynı kodu tekrar tekrar yazmamak için bir işi yapacak şekilde kodlarımızı yazmalıyız.
+   - metot yazarak kendimizi tekrarlamayı engellemiş oluyoruz.
+   - **`metot isimleri`** : **camelCasing** 
+   - **`class isimleri`** : `pascalCasing`
+   - YAZIM ŞEKİLLERİ
+   - **Camel Case** : userLoginCount
+   - **Pascal Case ** : UserLoginCount 
+   - **Snake Case** : user_login_count || USER_LOGIN_COUNT 
+   - **Kebab Case** : user-login-count
+   - class'ları, nesnel alt yapıları öğrenirsek `sürdürülebilir` yazılım  gerçekleştirmeyi öğrenmiş oluruz.
+   - **`Sürdürülebilir yazılım`** : uygulamamıza sürekli yeni istekler ve ihtiyaçlar gelecektir. Bu isteklere ve ihtiyaçlara direnmeyen yazılım yapmamıza denir.
+   - Java'da herşey iş yapan bir class'ın içerisinde oluşuyor. **Class'ların en önemli özelliği gruplama yapmaktır.**
+   - **Class'lar** `referans tipdir`.
+   - int, double, float, byte : **`Değer Tipler` - `Value Types`**
+   - diziler : **`Referans Tipler` - `References Types`**
+   - Class'lar
+     - ortak operasyonları tutar.
+	 - referans tiptir. 
+   - `Class` 'ların bir diğer özelliği ise özellik tutmasıdır. Bir class aynı zamanda field, attribute barındırır. C# 'da karşılığı `property` olarak adlandırılır.
+   - **Class'lar** ilgili operasyonları, ilgili özellikleri tutarlar.
+   - SOLID (Singleton Pattern) : tek sorumluluk prensibi, 
+     - bir class sadece bir işi yapar.
+	 - bir metot sadece bir işi yapar.
+	 - bir if blogu sadece bir işi yapar.
+   - **`Encapsulation`** : 
+     - capsulleme dediğimiz bir yöntemdir, 
+	 - herhangi bir alanı kullanmak için kısıtlamayı ön görür. 
+	 - getter - setter
+   - **getter** : okumak, almak, bir değeri okumaya yönelik işlemdir. : **readonly**
+   - **setter** : kurmak, vermek, bir değeri vermek                   : **writeonly**
+   - Class'ların default bir Constructor'ı mevcuttur. 
+   - **this** : bu class, içerisinde bulunduğum class anlamına gelmektedir.
