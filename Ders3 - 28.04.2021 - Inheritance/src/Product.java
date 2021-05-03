@@ -1,7 +1,7 @@
 
 public class Product {
 	
-	/* Getter - Setter */
+	/* Attribute || Field */
 	private int id;
 	private String name;
 	private double unitPrice;

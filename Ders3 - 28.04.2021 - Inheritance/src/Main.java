@@ -64,6 +64,5 @@ public class Main {
 		
 		Inheritance2.CustomerManager customerManager2 = new Inheritance2.CustomerManager();
 		customerManager2.add(new DatabaseLogger());
-		
 	}
 }

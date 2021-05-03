@@ -1,4 +1,5 @@
 package Inheritance;
+
 /* Corporate : Kurumsal */
 public class CorporateCustomer extends Customer  {
 	public String companyName;
