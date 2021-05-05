@@ -108,15 +108,14 @@ public class Main {
 		
 		System.out.println("--- Odev2");
 		
-		Instructor instructor=new Instructor();
+		Instructor instructor = new Instructor();
 		instructor.setId(1);
 		instructor.setFirstName("Engin");
 		instructor.setLastName("Demirog");
 		instructor.setEmail("engindemirog@gmail.com");
-		instructor.setAge(30);
 		instructor.setCourseTitle("Yazılım Geliştirici Yetiştirme Kampı (JAVA + REACT)");
 		  
-		Student student =new Student();
+		Student student = new Student();
 		student.setId(1);
 		student.setFirstName("Kamil");
 		student.setLastName("Kaplan");
@@ -128,14 +127,17 @@ public class Main {
 			new StudentManager()
 		};
 		for (UserManager userManager : userManagers) {
-			userManager.add(student);
-			userManager.read(student);
-			userManager.update(student);
-			userManager.delete(student);
-			userManager.add(instructor);
-			userManager.read(instructor);
-			userManager.update(instructor);
-			userManager.delete(instructor);
+			if (userManager instanceof StudentManager) {
+				userManager.add(student);
+				userManager.read(student);
+				userManager.update(student);
+				userManager.delete(student);
+			} else if(userManager instanceof InstructorManager) {
+				userManager.add(instructor);
+				userManager.read(instructor);
+				userManager.update(instructor);
+				userManager.delete(instructor);
+			}
 		}
 	}
 }

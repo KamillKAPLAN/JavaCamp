@@ -1,14 +1,15 @@
-# JAVA CAMP
+# JAVA CAMP - JAVA & REACT YouTube Eğitim Videosu
 
 ☑️ Bu Repository 'de `YouTube` 'da yer alan [(Java & React ) Yazılım Geliştirici Yetiştirme Kampı](https://www.youtube.com/playlist?list=PLqG356ExoxZUuVYKLuiQLnref7Y4ims87) oynatma listesindeki videolar yer almaktadır.
 
 ☑️ [Ders1 - 21.04.2021 - 1. Gün Java Giriş](https://www.youtube.com/watch?v=HB0T0hAMk0k) dersinde `Java` ile aşağıdaki konular işlenmiştir.
- - Değişkenler
- - Şart Blokları
- - Diziler
- - Döngüler
- - For ve Foreach
- - Değer ve Referans Tipleri
+ - jave se (jdk) kurulumu (1)
+ - eclipse kurulumu (2)
+ - replit.com --> online Ide
+ - bankacılık, e-ticaret, yemek, market, stok takip, rent a car : otomasyon uygulamaları
+ - metinsel veri tipleri arka planda `char` array olarak tutulur.
+ - iyi bir programcı olmanın en önemli şartı bir hata ile 3-4 gün uğraşmaktır. Bu ciddi bir `özveri` istemektedir.
+ - **`Derste öğrendiklerimiz`** : Değişkenler, Şart Blokları, Diziler, Döngüler, For ve Foreach, Değer ve Referans Tipleri
 
 ☑️ `Ders1 - Ödev`
  - [5. Ders](https://www.youtube.com/watch?v=dtP6yK50xIs&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=6) ve [23. Ders](https://www.youtube.com/watch?v=MaJXZn3CqVA&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=24) aralığında verilen videolar izlendi ve uygulandı.
@@ -44,6 +45,8 @@
  - Class oluşturma, `Özellik` ve `İş yapan` classlar incelenmiştir.
  - Constructor ifadesi incelenmiştir. `Constructor` overloading üzerinde çalışılmıştır.
  - Javanın kendisi C# gibi tamamen OOP 'dir.
+ - main metodu java uygulamalarındaki başlangıç dosyasıdır. Biz aksini belirtmediğimiz sürece, program oradan dallanıyor.
+ - veritabanı olarak `postgre` kullanılacak. Memory veritabanı üzerinden ilerlenecek.
  - Her JAVA dosyası bir **class** dır.
  - **`constructor`** : `yapıcı block`. Bir class'ı oluştururken yapmasını istediğimiz şeyi buraya yazarız.
  - `overloading` : birden fazla oluşturma - aşırı yüklenme
@@ -53,6 +56,7 @@
  - `SOLID - Single Responsibility` : her class, her metot sadece bir işi yapmakla mükelleftir.
  - **`sys`** = System.out.println();
  - Eclipse --> **Run** : `Ctrl F11` ve **Format Code** : `Ctrl + Shift + F`
+ - **`Derste öğrendiklerimiz`** : Class oluşturma, `Özellik` ve `İş yapan` classlar incelenmiştir. `Constructor` overloading üzerinde çalışılmıştır.
 
 ☑️ `Ders2 - Ödev`
  - [24. Ders](https://www.youtube.com/watch?v=XsIJn8pjdOM&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=25) ve [35. Ders](https://www.youtube.com/watch?v=X1UnM4W4-_w&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=36) aralığında verilen videolar izlendi ve uygulandı.
